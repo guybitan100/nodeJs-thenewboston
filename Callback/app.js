@@ -1,3 +1,4 @@
+"use strict";
 //Array of objects
 let students = [{name: "Mary", score: 90, school: "East"},
     {name: "James", score: 100, school: "East"},
