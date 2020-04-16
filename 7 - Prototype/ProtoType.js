@@ -1,4 +1,4 @@
-//Simpele Object
+
 
 function User() {
     this.name = "";
