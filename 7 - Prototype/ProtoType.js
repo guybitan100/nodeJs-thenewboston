@@ -26,9 +26,9 @@ console.log("Revital: " + Revital.life);
 //------------------------Prototype----------------
 //You can add functions to all objects
 
-User.prototype.uppercut = function uppercut(targetUser) {
+User.prototype.uper = function uppercut(targetUser) {
     targetUser.life -= 3;
-    console.log(this.name + " just uppercuted 3 life's to: " + targetUser.name);
+    console.log(this.name + " just uppercut 3 life's to: " + targetUser.name);
 }
 Revital.uppercut(Guy)
 console.log("Guy Life: " + Guy.life);
