@@ -8,7 +8,7 @@ console.log(addNumber(5,6))
 
 // Assign Function To Varible
 var printMe = function () {
-    console.log("My name is Guy.js")
+    console.log("My name is Guy.js.js")
 }
 
 printMe();

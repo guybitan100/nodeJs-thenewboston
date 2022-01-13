@@ -17,10 +17,10 @@ var Revital = new User();
 Guy.name = "Guy";
 Revital.name = "Revital";
 
-// Call to Guy.js.giveLife()
+// Call to Guy.js.js.giveLife()
 Guy.giveLife(Revital);
 
-console.log("Guy.js: " + Guy.life);
+console.log("Guy.js.js: " + Guy.life);
 console.log("Revital: " + Revital.life);
 
 //------------------------Prototype----------------
@@ -31,10 +31,10 @@ User.prototype.uper = function uppercut(targetUser) {
     console.log(this.name + " just uppercut 3 life's to: " + targetUser.name);
 }
 Revital.uppercut(Guy)
-console.log("Guy.js Life: " + Guy.life);
+console.log("Guy.js.js Life: " + Guy.life);
 console.log("Revital Life: " + Revital.life);
 
 //You can add properties to all objects
 User.prototype.magic = 60;
-console.log("Guy.js Magic: " + Guy.magic);
+console.log("Guy.js.js Magic: " + Guy.magic);
 console.log("Revital Magic: " + Revital.magic);
